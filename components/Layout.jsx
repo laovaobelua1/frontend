@@ -143,7 +143,7 @@ const Layout = ({ children }) => {
         {/* Footer */}
         <footer style={styles.footer}>
           <p style={styles.footerText}>
-            © 2024 Banking App. All rights reserved.
+            © 2025 Banking App. All rights reserved.
           </p>
         </footer>
       </div>

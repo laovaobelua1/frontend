@@ -172,7 +172,6 @@ const Settings = () => {
           <h2 style={{ margin: 0, fontSize: 'clamp(20px, 4vw, 24px)', fontWeight: '600', color: '#ffffff' }}>Cài đặt</h2>
         </div>
 
-        {/* PROFILE & AVATAR */}
         <div style={styles.profileSection}>
           <div style={styles.avatarWrapper}>
             <img src={avatar} alt="Avatar" style={styles.avatarImg} />
@@ -182,17 +181,15 @@ const Settings = () => {
           <p style={{ margin: '5px 0 0 0', color: '#666', fontSize: 'clamp(12px, 2vw, 13px)' }}>Thay đổi thông tin cá nhân</p>
         </div>
 
-        {/* NHÓM 1: CÁ NHÂN HÓA */}
         <div style={styles.sectionTitle}>Giao diện & Ngôn ngữ</div>
         <div style={styles.menuList}>
           
-          {/* Đổi Giao diện (Dark Mode) */}
+          {/* Đổi Giao diện (Dark Mode)
           <div style={styles.menuItem}>
             <span style={styles.menuLabel}>🌙 Chế độ tối (Dark Mode)</span>
             <ToggleSwitch checked={isDarkMode} onChange={toggleTheme} />
-          </div>
+          </div> */}
 
-          {/* Đổi Ảnh nền (Demo màu sắc) */}
           <div style={styles.menuItem}>
             <span style={styles.menuLabel}>🖼️ Ảnh nền App</span>
             <div style={{display: 'flex', gap: '5px'}}>

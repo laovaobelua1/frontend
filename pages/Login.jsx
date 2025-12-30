@@ -252,23 +252,6 @@ const Login = () => {
               ĐĂNG NHẬP NGAY ➜
             </button>
           </form>
-
-          {/* Dev Quick Access Button */}
-          <button 
-            type="button"
-            onClick={() => {
-              localStorage.setItem('user', JSON.stringify({
-                id: 1,
-                username: 'demo',
-                accountName: 'Demo User',
-                roles: ['USER']
-              }));
-              navigate('/dashboard');
-            }}
-            style={styles.devButton}
-          >
-            🚀 Vào nhanh (Dev)
-          </button>
           
           {/* Footer */}
           <div style={styles.footer}>
